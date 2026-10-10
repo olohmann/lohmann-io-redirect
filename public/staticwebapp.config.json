@@ -1,0 +1,15 @@
+{
+  "routes": [
+    {
+      "route": "/*",
+      "redirect": "https://github.com/olohmann",
+      "statusCode": 302
+    }
+  ],
+  "responseOverrides": {
+    "404": {
+      "redirect": "https://github.com/olohmann",
+      "statusCode": 302
+    }
+  }
+}
